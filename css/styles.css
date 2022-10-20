@@ -242,7 +242,7 @@ footer {
 .icon-mail, .icon-smartphone {
   margin-right: 10px;
 }
-.links:hover svg {fill:#188ce8;}
+
 .links-mail:hover > .icon-mail, .links-tel:hover > .icon-smartphone {
   fill:#188ce8;
 }
@@ -515,15 +515,30 @@ footer {
   width: 206px;
   height: 44px;
 }
+.soc-links li {
+  height: 44px;
+  width: 44px;
+}
 .soc-links-buttons {
   width: 44px;
   height: 44px;
-  border-radius: 100px;
-  border: 0;
-  background-color: #ffffff;
 }
-.soc-links-buttons:hover {
-  background-color: #2196f3;
+.soc-links-buttons::before {
+  background-image: url("../icons/Ellipse.svg");
+  content: "";
+  display: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.soc-links-buttons:hover::before {
+  display: block;
+}
+.soc-links-instagram, .soc-links-twitter, .soc-links-facebook, .soc-links-linkedin {
+  fill:#AFB1B8;
+}
+.soc-links-buttons:hover > .soc-links-instagram, .soc-links-twitter, .soc-links-facebook, .soc-links-linkedin {
+  fill:#FFFFFF;
 }
 .cards {
   display: flex;
