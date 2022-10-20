@@ -242,6 +242,7 @@ footer {
 .icon-mail, .icon-smartphone {
   margin-right: 10px;
 }
+.links:hover svg {fill:#188ce8;}
 .links-mail:hover > .icon-mail, .links-tel:hover > .icon-smartphone {
   fill:#188ce8;
 }
