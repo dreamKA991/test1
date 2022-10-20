@@ -238,18 +238,11 @@ footer {
   padding-bottom: 34px;
   display: inline-flex;
 }
-/*.links-mail::before,
-.links-tel::before {
-  content: "";
-  display: block;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: 10px;
-} */
+
 .icon-mail, .icon-smartphone {
   fill:black;
 }
-.icon-mail:hover, .icon-smartphone:hover {
+.links-mail:hover  .icon-mail, .links-tel:hover  .icon-smartphone {
   fill:#188ce8;
 }
 .footer-links-mail,
