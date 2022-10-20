@@ -535,6 +535,8 @@ footer {
   display: block;
 }
 .soc-links-instagram, .soc-links-twitter, .soc-links-facebook, .soc-links-linkedin {
+  width: 20px;
+  height: 20px;
   fill:#AFB1B8;
 }
 .soc-links-buttons:hover > .soc-links-instagram, .soc-links-twitter, .soc-links-facebook, .soc-links-linkedin {
