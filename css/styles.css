@@ -524,7 +524,7 @@ footer {
   height: 44px;
 }
 .soc-links-buttons::before {
-  background-image: url("../icons/Ellipse.svg");
+  background-image: url("../icons/ellipse.svg");
   content: "";
   display: none;
   background-repeat: no-repeat;
@@ -539,7 +539,7 @@ footer {
   height: 20px;
   fill:#AFB1B8;
 }
-.soc-links-buttons:hover > .soc-links-instagram, .soc-links-twitter, .soc-links-facebook, .soc-links-linkedin {
+.soc-links-buttons:hover > .soc-links-instagram, .soc-links-buttons:hover > .soc-links-twitter, .soc-links-buttons:hover > .soc-links-facebook, .soc-links-buttons:hover > .soc-links-linkedin {
   fill:#FFFFFF;
 }
 .cards {
