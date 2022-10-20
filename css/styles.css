@@ -526,13 +526,14 @@ footer {
 .soc-links-buttons::before {
   background-image: url("../icons/ellipse.svg");
   content: "";
-  display: none;
+  display: block;
+  opacity: 0;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .soc-links-buttons:hover::before {
-  display: block;
+  opacity: 1;
 }
 .soc-links-instagram, .soc-links-twitter, .soc-links-facebook, .soc-links-linkedin {
   width: 20px;
