@@ -240,9 +240,9 @@ footer {
 }
 
 .icon-mail, .icon-smartphone {
-  fill:black;
+  margin-right: 10px;
 }
-.links-mail:hover  .icon-mail, .links-tel:hover  .icon-smartphone {
+.links-mail:hover > .icon-mail, .links-tel:hover > .icon-smartphone {
   fill:#188ce8;
 }
 .footer-links-mail,
