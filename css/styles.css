@@ -580,6 +580,9 @@ footer {
   color: #212121;
   margin-bottom: 50px;
 }
+.our-clients-cards {
+  display: inline-flex;
+}
 .our-clients-cards li {
   border: 1px solid #afb1b8;
   border-radius: 4px;
