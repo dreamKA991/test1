@@ -592,8 +592,12 @@ margin-bottom: 20px;
 }
 .our-clients-cards {
   display: inline-flex;
+  gap:30px;
 }
 .our-clients-cards li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
 height: 92px;
   border: 1px solid #afb1b8;
@@ -601,7 +605,7 @@ height: 92px;
 }
 .our-clients-cards li:hover, .our-clients-card:hover {
   fill:#2196F3;
-  border:#2196F3;
+  border: 1px solid #2196F3;
 }
 .downlinks-mail {
   font-weight: 400;
