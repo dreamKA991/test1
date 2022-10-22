@@ -584,8 +584,13 @@ footer {
   display: inline-flex;
 }
 .our-clients-cards li {
+  width: 170px;
+height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+.our-clients-cards li:hover, .our-clients-card:hover {
+  fill:#2196F3;
 }
 .downlinks-mail {
   font-weight: 400;
