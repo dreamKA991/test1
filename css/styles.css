@@ -591,6 +591,7 @@ height: 92px;
 }
 .our-clients-cards li:hover, .our-clients-card:hover {
   fill:#2196F3;
+  border:#2196F3;
 }
 .downlinks-mail {
   font-weight: 400;
