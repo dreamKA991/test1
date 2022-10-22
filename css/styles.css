@@ -54,6 +54,12 @@ header {
   display: flex;
   align-items: center;
 }
+.footer-ul {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap:70px;
+}
 .footer-logo {
   margin-bottom: 20px;
 }
@@ -301,14 +307,14 @@ footer {
 }
 .footer-text {
   font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-border: 1px solid #000000;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
 }
 .index-footer {
   font-family: "Raleway", sans-serif;
@@ -517,6 +523,7 @@ margin-bottom: 20px;
   letter-spacing: 0.03em;
 
   color: var(--color-secondary);
+  margin-bottom: 16px;
 }
 .soc-links {
   display: flex;
@@ -528,11 +535,12 @@ margin-bottom: 20px;
   width: 206px;
   height: 44px;
 }
-
+.background-color-for-footer-buttons {
+  background: rgba(255, 255, 255, 0.1);
+}
 .soc-links-buttons {
   width: 44px;
   height: 44px;
-  background-color: #ffffff;
   border-radius: 50%;
   padding: 12px;
 }
@@ -592,20 +600,22 @@ margin-bottom: 20px;
 }
 .our-clients-cards {
   display: inline-flex;
-  gap:30px;
+  gap: 30px;
 }
 .our-clients-cards li {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 170px;
-height: 92px;
+  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-.our-clients-cards li:hover, .our-clients-card:hover {
-  fill:#2196F3;
-  border: 1px solid #2196F3;
+.our-clients-cards li:hover {
+  border: 1px solid #2196f3;
+}
+.our-clients-card:hover {
+  fill: #2196f3;
 }
 .downlinks-mail {
   font-weight: 400;
