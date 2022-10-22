@@ -312,6 +312,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 8px;
   margin-bottom: 20px;
 }
 .index-footer {
@@ -625,12 +626,30 @@ footer {
   height: 60px;
 }
 /* задание размеров лого компаний */
-.logo-1 {width: 41px; height:46.7px;}
-.logo-2 {width: 40px; height:52px;}
-.logo-3 {width: 43.46px; height:41.18px;}
-.logo-4 {width: 84.44px; height:40.62px;}
-.logo-5 {width: 62.54px; height:45.43px;}
-.logo-6 {width: 93.79px; height:43.93px;}
+.logo-1 {
+  width: 41px;
+  height: 46.7px;
+}
+.logo-2 {
+  width: 40px;
+  height: 52px;
+}
+.logo-3 {
+  width: 43.46px;
+  height: 41.18px;
+}
+.logo-4 {
+  width: 84.44px;
+  height: 40.62px;
+}
+.logo-5 {
+  width: 62.54px;
+  height: 45.43px;
+}
+.logo-6 {
+  width: 93.79px;
+  height: 43.93px;
+}
 
 .downlinks-mail {
   font-weight: 400;
