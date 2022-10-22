@@ -329,7 +329,7 @@ footer {
 .section_order {
   height: 600px;
   background-color: #2f303a;
-  background-image: url("../icons/backgroundsection.png");
+  background-image: url("../images/backgroundsection.png");
   background-size: cover;
   padding-top: 201px;
 }
@@ -419,16 +419,16 @@ footer {
   height: 70px;
 }
 .antenna-svg::before {
-  background-image: url("../icons/antenna.svg");
+  background-image: url("../icons/icons.svg#icon-antenna");
 }
 .clock-svg::before {
-  background-image: url("../icons/clock.svg");
+  background-image: url("../icons/icons.svg#icon-clock");
 }
 .diagram-svg::before {
-  background-image: url("../icons/diagram.svg");
+  background-image: url("../icons/icons.svg#icon-diagram");
 }
 .astronaut-svg::before {
-  background-image: url("../icons/astronaut.svg");
+  background-image: url("../icons/icons.svg#icon-astronaut");
 }
 .advantage {
   font-weight: 700;
