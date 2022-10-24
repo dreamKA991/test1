@@ -424,15 +424,21 @@ footer {
 }
 .antenna-svg::before {
   background-image: url("./icons/icons.svg#icon-antenna");
+  content: "";
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 70px;
 }
 .clock-svg::before {
   background-image: url("./icons/icons.svg#icon-clock");
 }
 .diagram-svg::before {
-  background-image: url("./icons/icons.svg#icon-diagram");
+  background-image: url("../icons/icons.svg#icon-diagram");
 }
 .astronaut-svg::before {
-  background-image: url("./icons/icons.svg#icon-astronaut");
+  background-image: url("/icons/icons.svg#icon-astronaut");
 }
 .advantage {
   font-weight: 700;
