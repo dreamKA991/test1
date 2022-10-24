@@ -42,10 +42,11 @@
                 >
               </li>
               <li>
-                <a href="/" class="contacts-link text-decoration-none"
+                <a href="index.html" class="contacts-link text-decoration-none" data-modal-open
                   >Контакти</a
                 >
               </li>
+              <li><button type="button" data-modal-open></button></li>
             </ul>
           </nav>
           <ul class="links">
@@ -439,5 +440,13 @@
         </ul>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-button-close" type="button" data-modal-close>+</button>
+        <p>Text zagolovok</p>
+        <h3>Text podzagolok</h3>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

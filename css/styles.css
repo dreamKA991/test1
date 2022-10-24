@@ -127,11 +127,13 @@ body {
   border: none;
   cursor: pointer;
 }
-.main-button:hover,.main-button:focus {
+.main-button:hover,
+.main-button:focus {
   background-color: #2196f3;
   color: var(--color-background);
   border: none;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .examples {
   width: 1200px;
@@ -146,7 +148,8 @@ body {
   flex-basis: calc((100% - 60px) / 3);
 }
 .examples > li:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .examples-info h2 {
   color: var(--color-primary);
@@ -332,7 +335,8 @@ footer {
 .section_order {
   height: 600px;
   background-color: #2f303a;
-  background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(0, 0, 0, 0.2) ),url("../images/backgroundsection.png");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(0, 0, 0, 0.2)),
+    url("../images/backgroundsection.png");
   background-size: cover;
   max-width: 1600px;
   padding-top: 201px;
@@ -411,7 +415,6 @@ footer {
   padding-left: 100px;
   padding-right: 100px;
 }
-
 
 .advantage {
   font-weight: 700;
@@ -663,4 +666,38 @@ footer {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: var(--color-background);
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.modal {
+  position: absolute;
+  width: 528px;
+  height: 581px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+.modal-button-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+.is-hidden {
+  display: none;
 }
