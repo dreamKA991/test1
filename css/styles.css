@@ -383,11 +383,6 @@ footer {
 }
 
 .feature {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
   padding-top: 94px;
   padding-bottom: 94px;
 }
