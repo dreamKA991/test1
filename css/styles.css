@@ -413,9 +413,8 @@ footer {
   border-radius: 4px;
   padding-top: 25px;
   padding-bottom: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 
