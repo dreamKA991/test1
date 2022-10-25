@@ -523,9 +523,6 @@ footer {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.white-fill, .white-fill:hover {
-  fill: var(--color-background);
-}
 .soc-links-buttons {
   width: 44px;
   height: 44px;
@@ -542,7 +539,10 @@ footer {
 }
 
 .soc-links-buttons:hover .soc-links-logos, .soc-links-buttons:focus .soc-links-logos {
-  fill: #ffffff;
+  fill: var(--color-background);
+}
+.soc-links-buttons:hover .white-fill, .soc-links-buttons:focus .white-fill {
+  fill: var(--color-background);
 }
 .cards {
   display: flex;
