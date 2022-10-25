@@ -522,7 +522,8 @@ footer {
 .background-color-for-footer-buttons {
   background: rgba(255, 255, 255, 0.1);
 }
-.white-fill {
+
+.white-fill, .white-fill:hover {
   fill: var(--color-background);
 }
 .soc-links-buttons {
@@ -534,18 +535,12 @@ footer {
 .soc-links-buttons:hover, .soc-links-buttons:focus {
   background-color: #188ce8;
 }
-.soc-links-instagram,
-.soc-links-twitter,
-.soc-links-facebook,
-.soc-links-linkedin {
+.soc-links-logos {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
 }
-.soc-links-buttons:hover > .soc-links-instagram, .soc-links-buttons:focus > .soc-links-instagram,
-.soc-links-buttons:hover > .soc-links-twitter, .soc-links-buttons:focus > .soc-links-twitter,
-.soc-links-buttons:hover > .soc-links-facebook, .soc-links-buttons:focus > .soc-links-facebook,
-.soc-links-buttons:hover > .soc-links-linkedin, .soc-links-buttons:focus > .soc-links-linkedin {
+.soc-links-buttons:hover > .soc-links-logos, .soc-links-buttons:focus > .soc-links-logos {
   fill: #ffffff;
 }
 .cards {
