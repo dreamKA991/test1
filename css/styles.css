@@ -540,7 +540,8 @@ footer {
   height: 20px;
   fill: #afb1b8;
 }
-.soc-links-buttons:hover > .soc-links-logos, .soc-links-buttons:focus > .soc-links-logos {
+
+.soc-links-buttons:hover .soc-links-logos, .soc-links-buttons:focus .soc-links-logos {
   fill: #ffffff;
 }
 .cards {
