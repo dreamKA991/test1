@@ -541,7 +541,7 @@ footer {
 .soc-links-buttons:hover .soc-links-logos, .soc-links-buttons:focus .soc-links-logos {
   fill: var(--color-background);
 }
-.soc-links-buttons:hover .white-fill, .soc-links-buttons:focus .white-fill {
+.white-fill, .soc-links-buttons:hover .white-fill, .soc-links-buttons:focus .white-fill {
   fill: var(--color-background);
 }
 .cards {
