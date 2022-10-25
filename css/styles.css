@@ -544,6 +544,7 @@ footer {
 .white-fill, .soc-links-buttons:hover .white-fill, .soc-links-buttons:focus .white-fill {
   fill: var(--color-background);
 }
+/* where */
 .cards {
   display: flex;
   align-items: center;
