@@ -546,11 +546,6 @@ footer {
   fill: var(--color-background);
 }
 
-.soc-links-buttons:hover .soc-links-logos-footer, .soc-links-buttons:focus .soc-links-logos-footer {
-  fill: var(--color-background);
-}
-
-/* where */
 .cards {
   display: flex;
   align-items: center;
