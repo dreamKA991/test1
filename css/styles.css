@@ -606,7 +606,7 @@ footer {
 .our-clients-card:hover, .our-clients-logo-div:focus .our-clients-card {
   border: 1px solid #2196f3;
 }
-.our-clients-card:hover .our-clients-logo, .our-clients-logo-div:focus .our-clients-logo {
+.our-clients-card:hover .our-clients-logo, .our-clients-logo-div:focus > .our-clients-logo {
   fill: #2196f3;
 }
 
