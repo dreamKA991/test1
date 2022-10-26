@@ -600,10 +600,10 @@ footer {
 .our-clients-logo {
   fill:#AFB1B8;
 }
-.our-clients-card:hover, .our-clients-logo-div:focus .our-clients-card {
+.our-clients-card:hover, .our-clients-card:focus {
   border: 1px solid #2196f3;
 }
-.our-clients-card:hover .our-clients-logo {
+.our-clients-card:hover .our-clients-logo, .our-clients-card:focus .our-clients-logo {
   fill: #2196f3;
 }
 
