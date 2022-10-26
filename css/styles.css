@@ -527,7 +527,9 @@ footer {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .soc-links-buttons:hover, .soc-links-buttons:focus {
   background-color: #188ce8;
