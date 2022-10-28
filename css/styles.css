@@ -187,7 +187,7 @@ li {
   position: relative;
   height: 294px;
 }
-.examples-link:hover .examples-overlay {
+.examples-link:hover .examples-overlay, .examples-link:focus .examples-overlay {
   transform: translatey(0);
 }
 .examples img {
