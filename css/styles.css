@@ -838,6 +838,14 @@ text-align: center; */
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
+input[name="modal-form-name"], 
+input[name="modal-form-tel"], 
+input[name="modal-form-email"] {
+position: relative;
+}
+.modal-form-input-icons {
+  position: absolute;
+}
 .is-hidden {
   visibility: hidden;
   opacity: 0;
