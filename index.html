@@ -446,12 +446,12 @@
           </li>
           <li>
             <h3 class="footer-text">Підпишіться на розсилку</h3>
-            <form>
+            <form name="subscribe_form">
               <label for="email"></label>
-              <input id="email" type="email"></input>
+              <input id="email" type="email" placeholder="E-mail"></input>
               <button class="footer-subscribe-button" type="submit">Підписатися
-                <svg width="24" height="24">
-                  <use href="./icons/icon-telegram.svg"></use>
+                <svg class="footer-telegram-icon" width="24" height="24">
+                  <use href="./icons/icons.svg#icon-telegram"></use>
                 </svg>
               </button>
             </form>
@@ -461,7 +461,7 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-button-close" type="button" data-modal-close><svg width="11" height="11"><use href="./icons/icon-x.svg"></use></svg></button>
+        <button class="modal-button-close" type="button" data-modal-close><svg width="11" height="11"><use href="./icons/icons.svg#icon-x"></use></svg></button>
         <h3>Залиште свої дані, ми вам передзвонимо</h3>
         <div class="modal-inputs">
           <h4>Ім'я</h4>
