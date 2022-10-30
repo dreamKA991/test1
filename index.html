@@ -462,39 +462,51 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-button-close" type="button" data-modal-close><svg width="11" height="11"><use href="./icons/icons.svg#icon-x"></use></svg></button>
-        <h3>Залиште свої дані, ми вам передзвонимо</h3>
+        <h3 class="modal-first-text">Залиште свої дані, ми вам передзвонимо</h3>
         <form>
           <label>
-            Ім'я
+            <h4>Ім'я</h4>
+            <div class="modal-form-div">
             <input name="modal-form-name" />
           <svg class="modal-form-input-icons" width="18" height="18">
             <use href="./icons/icons.svg#icon-person-black"></use>
           </svg>
-          
+        </div>
           </label>
+
           <label>
-            Телефон
+            <h4>Телефон</h4>
+            <div class="modal-form-div">
             <input type="tel" name="modal-form-tel" />
           <svg class="modal-form-input-icons" width="18" height="18">
             <use href="./icons/icons.svg#icon-phone-black"></use>
           </svg>
-          
+            </div>
           </label>
           
           <label>
-            Пошта
+            <h4>Пошта</h4>
+            <div class="modal-form-div">
             <input type="email" name="modal-form-email" />
           <svg class="modal-form-input-icons" width="18" height="18">
             <use href="./icons/icons.svg#icon-email-black"></use>
           </svg>
+          </div>
           </label>
+
           <label>
-            Коментар
+            <h4>Коментар</h4>
             <textarea name="modal-form-comment" placeholder="Введіть текст">
             </textarea>
           </label>
-          <input type="checkbox" name="modal-form-checkbox-accept" value="modal-form-checkbox-accept" />
-          Погоджуюся з розсилкою та приймаю <a href="/">Умови договору</a>
+
+          <label>
+          <div class="modal-div-checkbox">
+            <input type="checkbox" name="modal-form-checkbox-accept" value="modal-form-checkbox-accept" />
+            <h3>Погоджуюся з розсилкою та приймаю</h3> <a href="/">Умови договору</a>
+          </div>
+          </label>
+          
           <label>
             <button type="submit">Відправити</button>
           </label>
