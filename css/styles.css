@@ -883,10 +883,6 @@ input[type="checkbox"] {
   border-radius: 2px;
 }
 
-input[type="checkbox"]:checked {
-  background-color: #2196f3;
-}
-
 .modal-div-checkbox > h3,
 .modal-div-checkbox > a {
   font-weight: 400;
@@ -924,11 +920,11 @@ input[type="checkbox"]:checked {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-div:hover > input,
-.modal-form-div:focus > input {
+.modal-form-div > input:focus {
   border-color: #2196f3;
 }
-.modal-form-div:hover svg,
-.modal-form-div:focus svg {
+.modal-form-div:hover > .modal-form-input-icons,
+.modal-form-div > input:focus  .modal-form-input-icons {
   fill: #2196f3;
 }
 .modal-form-input-icons {
