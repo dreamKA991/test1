@@ -897,7 +897,7 @@ input[type="checkbox"] {
 .modal-div-checkbox > a {
   color: #2196f3;
 }
-.modal-label-button-submit {
+#modal-label-button-submit {
   display: flex;
   justify-items: center;
   align-content: center;

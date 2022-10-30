@@ -464,7 +464,7 @@
         <button class="modal-button-close" type="button" data-modal-close><svg width="11" height="11"><use href="./icons/icons.svg#icon-x"></use></svg></button>
         <h3 class="modal-first-text">Залиште свої дані, ми вам передзвонимо</h3>
         <form>
-          <label>
+          <label id="modal-label-name">
             <h4>Ім'я</h4>
             <div class="modal-form-div">
             <input name="modal-form-name" />
@@ -474,7 +474,7 @@
         </div>
           </label>
 
-          <label>
+          <label id="modal-label-tel">
             <h4>Телефон</h4>
             <div class="modal-form-div">
             <input type="tel" name="modal-form-tel" />
@@ -484,7 +484,7 @@
             </div>
           </label>
           
-          <label>
+          <label id="modal-label-email">
             <h4>Пошта</h4>
             <div class="modal-form-div">
             <input type="email" name="modal-form-email" />
@@ -494,20 +494,20 @@
           </div>
           </label>
 
-          <label>
+          <label id="modal-label-comment">
             <h4>Коментар</h4>
             <textarea name="modal-form-comment" placeholder="Введіть текст">
             </textarea>
           </label>
 
-          <label>
+          <label id="modal-label-checkbox">
           <div class="modal-div-checkbox">
             <input type="checkbox" name="modal-form-checkbox-accept" value="modal-form-checkbox-accept" />
             <h3>Погоджуюся з розсилкою та приймаю</h3> <a href="/">Умови договору</a>
           </div>
           </label>
           
-          <label class="modal-label-button-submit">
+          <label id="modal-label-button-submit">
             <button type="submit">Відправити</button>
           </label>
         </form>
