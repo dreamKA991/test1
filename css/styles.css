@@ -915,6 +915,7 @@ input[type="checkbox"] {
 
 }
 .modal-span-checkbox {
+  display: inline-block;
   width: 16px;
   height: 15px;
   border: 2px solid var(--color-primary);
@@ -925,8 +926,9 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked + .modal-span-checkbox { 
   background-color: #2196F3;
   border-color: #2196F3;
-  background-image: url("../icons/icons.svg#icon-icon-checkbox");
+  background-image: url("../icons/icons.svg#icon-checkbox");
   background-size: contain;
+  background-origin: border-box;
 }
 .modal-div-checkbox > h3,
 .modal-div-checkbox > a {
