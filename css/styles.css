@@ -926,7 +926,7 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked + .modal-span-checkbox { 
   background-color: #2196F3;
   border-color: #2196F3;
-  background-image: url("../icons/icons.svg#icon-checkbox-white");
+  background-image: url("../icons/icon-checkbox.svg");
   background-size: contain;
   background-origin: border-box;
 }
