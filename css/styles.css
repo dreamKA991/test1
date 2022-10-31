@@ -852,12 +852,15 @@ text-align: center; */
 #modal-label-name,
 #modal-label-tel,
 #modal-label-email {
+  display: block;
   margin-bottom: 10px;
 }
 #modal-label-comment {
+  display: block;
   margin-bottom: 20px;
 }
 #modal-label-checkbox {
+  display: block;
   margin-bottom: 30px;
 }
 .modal h4 {
@@ -876,12 +879,17 @@ text-align: center; */
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 42px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal textarea[name="modal-form-comment"] {
   width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  padding: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-div-checkbox {
   display: flex;
@@ -933,7 +941,9 @@ input[type="checkbox"] {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-div:hover > input,
-.modal-form-div > input:focus {
+.modal-form-div > input:focus,
+textarea[name="modal-form-comment"]:hover,
+textarea[name="modal-form-comment"]:focus {
   border-color: #2196f3;
 }
 .modal-form-div:hover > .modal-form-input-icons,
@@ -947,6 +957,7 @@ input[name="modal-form-email"]:focus ~ .modal-form-input-icons {
   position: absolute;
   top: 12px;
   left: 12px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
   visibility: hidden;
