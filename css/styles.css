@@ -231,6 +231,13 @@ footer {
   padding-bottom: 60px;
   background-color: #2f303a;
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-gap-div {
+  margin-left: 70px;
+}
 .map-location,
 .footer-link {
   margin-bottom: 9px;
