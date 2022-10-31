@@ -930,9 +930,9 @@ input[type="checkbox"] {
 .modal-form-div:hover > .modal-form-input-icons {
   fill: #2196f3;
 }
-input[name="modal-form-name"]:focus  .modal-form-input-icons,
-input[name="modal-form-tel"]:focus  .modal-form-input-icons,
-input[name="modal-form-email"]:focus  .modal-form-input-icons {
+input[name="modal-form-name"]:focus ~ .modal-form-input-icons,
+input[name="modal-form-tel"]:focus ~ .modal-form-input-icons,
+input[name="modal-form-email"]:focus ~ .modal-form-input-icons {
   fill: #2196f3;
 }
 
