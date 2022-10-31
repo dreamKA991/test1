@@ -839,6 +839,10 @@ text-align: center; */
   background-color: var(--color-background);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 .modal-first-text {
   font-weight: 700;
