@@ -928,7 +928,7 @@ input[type="checkbox"] {
   border-color: #2196f3;
 }
 .modal-form-div:hover > .modal-form-input-icons,
-.modal-form-div > input:focus  .modal-form-input-icons {
+input:focus  .modal-form-input-icons {
   fill: #2196f3;
 }
 .modal-form-input-icons {
