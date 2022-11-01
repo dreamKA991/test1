@@ -238,7 +238,7 @@ footer {
 .footer-gap-div {
   margin-left: 93px;
 }
-.footer-gap-div > .soc-links-logos {
+.footer-gap-div  .soc-links-logos {
   fill: var(--color-background);
 }
 .map-location,
