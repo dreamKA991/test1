@@ -236,7 +236,10 @@ footer {
   align-items: baseline;
 }
 .footer-gap-div {
-  margin-left: 70px;
+  margin-left: 93px;
+}
+.footer-gap-div > .soc-links-logos {
+  fill: var(--color-background);
 }
 .map-location,
 .footer-link {
@@ -856,6 +859,7 @@ text-align: center; */
   fill: #2196f3;
 }
 .modal-first-text {
+  display: block;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -947,6 +951,7 @@ input[type="checkbox"]:checked + .modal-span-checkbox {
   background-image: url("../icons/icon-checkbox.svg");
   background-size: contain;
   background-origin: border-box;
+  background-position: center;
 }
 
 .modal-div-checkbox > a {
